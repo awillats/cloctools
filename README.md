@@ -1,10 +1,10 @@
-# cloctools
+# CLOCTools
 Hello, this is the overview page fo CLOCTools and its various repositories. CLOCTools are a library of tools for closed-loop neuroscience.
-CLOC Tools includes algorthms for closed-loop control and tools for realtime implementation.  Additionally, related closed-loop tools, such as CLEOsim are also linked from this page.
+CLOC Tools includes algorthms for closed-loop control and tools for realtime implementation.  Additionally, related closed-loop tools, such as the simulation/modeling tools CLEOsim, are also linked from this page.
 
 
 ## Core Algorithms
-<img src="/figures/logos/ldsctrlest-logo.png" height=45 style='border:15px solid #ffffff'></img><img src="/figures/logos/hmmlogo_center_white.png" height=75></img>
+<img src="/figures/ldsctrlest-logo.png" height=45 style='border:15px solid #ffffff'></img><img src="/figures/hmmlogo_center_white.png" height=75></img>
 ### **State-space dynamics** (GLDS, PLDS) [`stanley-rozell/ldsCtrlEst`](https://github.com/stanley-rozell/lds-ctrl-est)
   - [code](https://github.com/stanley-rozell/lds-ctrl-est), [documentation](https://stanley-rozell.github.io/lds-ctrl-est/)
   - features:
@@ -33,6 +33,9 @@ CLOC Tools includes algorthms for closed-loop control and tools for realtime imp
 
 
 ### **Latent-switch decoding** (HMM) [`stanley-rozell/hmm`](https://github.com/stanley-rozell/hmm)
+hmm is a simple set of hidden Markov model (HMM) code intended to support control of switching linear dynamical systems.
+
+It contains methods for generating and decoding systems with discrete latent states and discrete observed signals.
   - [code](https://github.com/stanley-rozell/hmm), [documentation](https://stanley-rozell.github.io/hmm/)
   - features
     - Hidden Markov Model (HMM) simulation
