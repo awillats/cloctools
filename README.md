@@ -4,8 +4,9 @@ CLOC Tools includes algorthms for closed-loop control and tools for realtime imp
 
 
 ## Core Algorithms
-<img src="/figures/ldsctrlest-logo.png" height=45 style='border:15px solid #ffffff'></img><img src="/figures/hmmlogo_center_white.png" height=75></img>
+
 ### **State-space dynamics** (GLDS, PLDS) [`stanley-rozell/ldsCtrlEst`](https://github.com/stanley-rozell/lds-ctrl-est)
+<img src="/figures/ldsctrlest-logo.png" height=90 style='border:15px solid #ffffff'></img>
 ldsCtrlEst is a C++ library for estimation and control of linear dynamical systems (LDS) with Gaussian or Poisson observations. It is meant to provide the functionality necessary to implement feedback control of linear dynamical systems experimentally. This library was originally developed for the task of controlling neuronal activity using spike count data as feedback and optogenetic inputs for control.
   - [code](https://github.com/stanley-rozell/lds-ctrl-est), [documentation](https://stanley-rozell.github.io/lds-ctrl-est/)
   - features:
@@ -34,6 +35,7 @@ ldsCtrlEst is a C++ library for estimation and control of linear dynamical syste
 
 
 ### **Latent-switch decoding** (HMM) [`stanley-rozell/hmm`](https://github.com/stanley-rozell/hmm)
+<img src="/figures/hmmlogo_center_white.png" height=150></img>
 hmm is a simple set of hidden Markov model (HMM) code intended to support control of switching linear dynamical systems.
 
 It contains methods for generating and decoding systems with discrete latent states and discrete observed signals.
@@ -86,7 +88,7 @@ These projects contain related work from the Rozell lab
 [StAC](https://github.com/awillats/state-aware-control) - state-aware control of switching neural dynamics
 ### CLEOsim
 [CLEOsim](https://github.com/kjohnsen/cleosim) - Closed Loop, Electrophysiology, and Optogenetics Simulator
-<img src="/figures/CLEOsim_logo.png" height=45 style='border:15px solid #ffffff'></img>
+<img src="/figures/CLEOsim_logo.png" height=90 style='border:15px solid #ffffff'></img>
 cleosim (Closed Loop, Electrophysiology, and Optogenetics Simulator) is a Python package built on the Brian 2 spiking neural network simulator developed bridging theory and experiment for mesoscale neuroscience, facilitating electrode recording, optogenetic stimulation, and closed-loop experiments.  
 
 ### CLINIC
