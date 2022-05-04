@@ -83,4 +83,5 @@ https://github.com/stanley-rozell/lfp-cpp-library/blob/master/src/lfpRatiometer.
 These projects contain related work from the Rozell lab
 - [StAC](https://github.com/awillats/state-aware-control) - state-aware control of switching neural dynamics
 - [CLEOsim](https://github.com/kjohnsen/cleosim) - Closed Loop, Electrophysiology, and Optogenetics Simulator
+  - <img src="/figures/CLEOsim_logo.png" height=45 style='border:15px solid #ffffff'></img> 
 - [CLINC](https://github.com/awillats/clinc) - closed loop identifiability in neural circuits
