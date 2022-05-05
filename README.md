@@ -103,4 +103,4 @@ These projects contain related work from the Rozell lab.
 CLEOsim (Closed Loop, Electrophysiology, and Optogenetics Simulator) is a Python package built on the Brian 2 spiking neural network simulator developed bridging theory and experiment for mesoscale neuroscience, facilitating electrode recording, optogenetic stimulation, and closed-loop experiments.  
 
 ### CLINIC
-[CLINC](https://github.com/awillats/clinc) - closed loop identifiability in neural circuits
+[CLINC](https://github.com/awillats/clinc) - closed loop identifiability in neural circuits.  CLINIC is a simple case study of a 3 node circuit illustrating circuit identification in closed-loop versus open-loop approaches.
