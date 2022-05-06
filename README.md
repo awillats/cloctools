@@ -69,7 +69,7 @@ https://github.com/stanley-rozell/lfp-cpp-library/blob/master/src/lfpRatiometer.
 
 ### Real-time utilities ([RTXI](http://rtxi.org/), [TDT](https://www.tdt.com/) )
 ## RTXI
-RTXI, the Real-Time eXperiment Interface, is a hard real-time data acquisition and control application for biological research. At its core is a Real-Time Operating System (RTOS), which uses a modified Linux kernel to provide deterministic control in a variety of experimental settings. RTXI is a fast, free, and open-source system currently used in labs all over the world to probe diverse, technologically challenging problems, such as dynamic probing of ion-channel function, control of cardiac arrhythmia dynamics, and control of deep-brain stimulation patterns.
+RTXI, the Real-Time eXperiment Interface, is a hard real-time data acquisition and control application for biological research. At its core is a Real-Time Operating System (RTOS), which uses a modified Linux kernel to provide deterministic control in a variety of experimental settings. RTXI is a fast, free, and open-source system currently used in labs all over the world to probe diverse, technologically challenging problems, such as dynamic probing of ion-channel function, control of cardiac arrhythmia dynamics, and control of deep-brain stimulation patterns.  We have repositories with useful tools for interfacing with and configuring RTXI>
 
 - [rtxi-settings](https://github.com/stanley-rozell/rtxi-settings) -  RTXI experiment settings   
 - [stimLoader](https://github.com/stanley-rozell/rtxi-stimLoader) - Stimulus and parameter I/O 
@@ -94,7 +94,7 @@ RTXI, the Real-Time eXperiment Interface, is a hard real-time data acquisition a
 ## Satellite repositories 
 These projects contain related work from the Rozell lab.
 ### StAC
-[StAC](https://github.com/awillats/state-aware-control) - state-aware control of switching neural dynamics
+[StAC](https://github.com/awillats/state-aware-control) - State-aware control of switching neural dynamics (StAC) applies control, decoding, and estimation to switching models of neural responses. Hidden Markov models and Poisson linear dynamical systems are used to design and characterize feedback in simulation and are compared to non-switching “state-naive” approaches.
 ### CLEOsim
 [CLEOsim](https://github.com/kjohnsen/cleosim) - Closed Loop, Electrophysiology, and Optogenetics Simulator
 
@@ -103,4 +103,4 @@ These projects contain related work from the Rozell lab.
 CLEOsim (Closed Loop, Electrophysiology, and Optogenetics Simulator) is a Python package built on the Brian 2 spiking neural network simulator developed bridging theory and experiment for mesoscale neuroscience, facilitating electrode recording, optogenetic stimulation, and closed-loop experiments.  
 
 ### CLINIC
-[CLINC](https://github.com/awillats/clinc) - closed loop identifiability in neural circuits.  CLINIC is a simple case study of a 3 node circuit illustrating circuit identification in closed-loop versus open-loop approaches.
+[CLINC](https://github.com/awillats/clinc) - Closed-loop identifiability in neural circuits. This project proposes a framework for understanding the impact of open and closed-loop interventions in identifying neural circuits. This manuscript (in preparation) summarizes the role of stimulation in circuit inference and demonstrates how to design interventions through simple gaussian network simulations. See also [https://github.com/awillats/brian_delayed_gaussian](awillats/brian_delayed_gaussian) for simulating networks of Gaussian nodes with delayed connections in the Brian2 simulator framework.
