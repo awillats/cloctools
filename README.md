@@ -3,9 +3,9 @@ Hello, this is the overview page fo CLOCTools with links to its various reposito
 CLOC Tools includes algorthms for closed-loop control and tools for realtime implementation.  Additionally, related tools, such as the simulation/modeling tool CLEOsim, are also linked from this page.
 
 ## Overview
-<img src="figures/Copy of CLOCtools overview.png" height=270 style='border:15px solid #ffffff'></img>
+<!-- <img src="figures/Copy of CLOCtools overview.png" height=270 style='border:15px solid #ffffff'></img> -->
 
-<img src="figures/CLOCTools_and_CLEOSim_V4.png" height=270 style='border:15px solid #ffffff'></img>
+<img src="figures/CLOCTools_and_CLEOSim_V5.png" height=270 style='border:15px solid #ffffff'></img>
 
 ## Core Algorithms
 
