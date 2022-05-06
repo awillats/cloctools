@@ -5,7 +5,7 @@ CLOC Tools includes algorthms for closed-loop control and tools for realtime imp
 ## Overview
 <!-- <img src="figures/Copy of CLOCtools overview.png" height=270 style='border:15px solid #ffffff'></img> -->
 
-<img src="figures/CLOCTools_and_CLEOSim_V5.png" height=270 style='border:15px solid #ffffff'></img>
+<img src="figures/CLOCTools_and_CLEOSim_V5.png" height=360 style='border:15px solid #ffffff'></img>
 
 ## Core Algorithms
 
