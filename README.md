@@ -2,8 +2,10 @@
 Hello, this is the overview page fo CLOCTools with links to its various repositories. CLOCTools are a library of tools for closed-loop neuroscience.
 CLOC Tools includes algorthms for closed-loop control and tools for realtime implementation.  Additionally, related tools, such as the simulation/modeling tool CLEOsim, are also linked from this page.
 
-<img src="figures/Copy of CLOCtools overview.png" height=180 style='border:15px solid #ffffff'></img>
+## Overview
+<img src="figures/Copy of CLOCtools overview.png" height=270 style='border:15px solid #ffffff'></img>
 
+<img src="figures/CLOCTools_and_CLEOSim_V4.png" height=270 style='border:15px solid #ffffff'></img>
 
 ## Core Algorithms
 
@@ -42,9 +44,8 @@ ldsCtrlEst is a C++ library for estimation and control of linear dynamical syste
 
 <img src="/figures/hmmlogo_center_white.png" height=150></img>
 
-hmm is a simple set of hidden Markov model (HMM) code intended to support control of switching linear dynamical systems.
+hmm is a simple set of hidden Markov model (HMM) code intended to support control of switching linear dynamical systems. It contains methods for generating and decoding systems with discrete latent states and discrete observed signals.
 
-It contains methods for generating and decoding systems with discrete latent states and discrete observed signals.
   - [code](https://github.com/stanley-rozell/hmm), [documentation](https://stanley-rozell.github.io/hmm/)
   - features
     - Hidden Markov Model (HMM) simulation
@@ -71,7 +72,7 @@ https://github.com/stanley-rozell/lfp-cpp-library/blob/master/src/lfpRatiometer.
 
 ### Real-time utilities ([RTXI](http://rtxi.org/), [TDT](https://www.tdt.com/) )
 ## RTXI
-RTXI, the Real-Time eXperiment Interface, is a hard real-time data acquisition and control application for biological research. At its core is a Real-Time Operating System (RTOS), which uses a modified Linux kernel to provide deterministic control in a variety of experimental settings. RTXI is a fast, free, and open-source system currently used in labs all over the world to probe diverse, technologically challenging problems, such as dynamic probing of ion-channel function, control of cardiac arrhythmia dynamics, and control of deep-brain stimulation patterns.  We have repositories with useful tools for interfacing with and configuring RTXI>
+[RTXI](http://rtxi.org/), the Real-Time eXperiment Interface, is a hard real-time data acquisition and control application for biological research. At its core is a Real-Time Operating System (RTOS), which uses a modified Linux kernel to provide deterministic control in a variety of experimental settings. RTXI is a fast, free, and open-source system currently used in labs all over the world to probe diverse, technologically challenging problems, such as dynamic probing of ion-channel function, control of cardiac arrhythmia dynamics, and control of deep-brain stimulation patterns.  We have repositories with useful tools for interfacing with and configuring RTXI.
 
 - [rtxi-settings](https://github.com/stanley-rozell/rtxi-settings) -  RTXI experiment settings   
 - [stimLoader](https://github.com/stanley-rozell/rtxi-stimLoader) - Stimulus and parameter I/O 
@@ -85,7 +86,7 @@ RTXI, the Real-Time eXperiment Interface, is a hard real-time data acquisition a
   </details>
 
 ## TDT  
- Tucker Davis Technologies have a variety of hardware and software solutions of neuroscience.  We have respositories with useful tools for interfacing with TDT hardware and software. 
+Tucker Davis Technologies ([TDT](https://www.tdt.com/) ) have a variety of hardware and software solutions for neuroscience.  We have respositories with useful tools for interfacing with TDT hardware and software. 
 - <details><summary>TDT utilities</summary>
 
   - [rtxi-tdtSpikes](https://github.com/stanley-rozell/rtxi-tdtSpikes) - retrieve spike counts from TDT
@@ -96,7 +97,7 @@ RTXI, the Real-Time eXperiment Interface, is a hard real-time data acquisition a
 ## Satellite repositories 
 These projects contain related work from the Rozell lab.
 ### StAC
-[StAC](https://github.com/awillats/state-aware-control) - State-aware control of switching neural dynamics (StAC) applies control, decoding, and estimation to switching models of neural responses. Hidden Markov models and Poisson linear dynamical systems are used to design and characterize feedback in simulation and are compared to non-switching “state-naive” approaches.
+[StAC](https://github.com/awillats/state-aware-control) is State-aware control of switching neural dynamics (StAC).  It applies control, decoding, and estimation to switching models of neural responses. Hidden Markov models and Poisson linear dynamical systems are used to design and characterize feedback in simulation and are compared to non-switching “state-naive” approaches.
 ### CLEOsim
 [CLEOsim](https://github.com/kjohnsen/cleosim) - Closed Loop, Electrophysiology, and Optogenetics Simulator
 
