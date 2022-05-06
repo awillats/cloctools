@@ -3,7 +3,7 @@ Hello, this is the overview page fo CLOCTools with links to its various reposito
 CLOC Tools includes algorthms for closed-loop control and tools for realtime implementation.  Additionally, related tools, such as the simulation/modeling tool CLEOsim, are also linked from this page.
 
 ## Overview
-<img src="figures/Copy of CLOCtools overview.png" height=270 style='border:15px solid #ffffff'></img>
+<img src="figures/Copy of CLOCtools overview.png" height=450 style='border:15px solid #ffffff'></img>
 
 CLOCTools alogirthms include linear dynamical systems control estimation (ldsCtrlEst) and hidden markov model switching linear dynamical systems (hmm).  For implementation, CLOC tools has a variety of software for interfacing with the the real time tools RTXI and TDT along with tools for interfacing across programming languages.
 
