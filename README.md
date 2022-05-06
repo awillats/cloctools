@@ -1,6 +1,6 @@
 # CLOCTools
 Hello, this is the overview page fo CLOCTools with links to its various repositories. CLOCTools are a library of tools for closed-loop neuroscience.
-CLOC Tools includes algorthms for closed-loop control and tools for realtime implementation.  Additionally, related closed-loop tools, such as the simulation/modeling tools CLEOsim, are also linked from this page.
+CLOC Tools includes algorthms for closed-loop control and tools for realtime implementation.  Additionally, related tools, such as the simulation/modeling tool CLEOsim, are also linked from this page.
 
 
 ## Core Algorithms
