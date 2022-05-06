@@ -47,15 +47,11 @@ ldsCtrlEst is a C++ library for estimation and control of linear dynamical syste
 hmm is a simple set of hidden Markov model (HMM) code intended to support control of switching linear dynamical systems. It contains methods for generating and decoding systems with discrete latent states and discrete observed signals.
 
   - [code](https://github.com/stanley-rozell/hmm), [documentation](https://stanley-rozell.github.io/hmm/)
-  - features
-    - Hidden Markov Model (HMM) simulation
-    - HMM decoding
-  - example script:
-    - build, simulate and decode - [`test/main.cpp`](https://github.com/stanley-rozell/hmm/blob/master/misc/test-cmake-installation/src/main.cpp) - [tutorial](https://stanley-rozell.github.io/hmm/_tutorial.html)
+  - example script with build, simulate, and decode - [`test/main.cpp`](https://github.com/stanley-rozell/hmm/blob/master/misc/test-cmake-installation/src/main.cpp) 
+    - [tutorial](https://stanley-rozell.github.io/hmm/_tutorial.html)
   - RTXI modules:
     - [rtxi-hmmDecoder](https://github.com/stanley-rozell/rtxi-hmmDecoder)
     - [rtxi-hmmGenerator](https://github.com/stanley-rozell/rtxi-hmmGenerator)
-
 
 <!-- ### Local field potential (LFP) decoding
 https://github.com/stanley-rozell/lfp-cpp-library
@@ -63,15 +59,19 @@ https://github.com/stanley-rozell/lfp-cpp-library/blob/master/src/lfpRatiometer.
 
 ## Implementation tools
 
-
 ### Cross-language utilities
+
+
 
 - [eg-cpp-library](https://github.com/stanley-rozell/eg-cpp-library) - An example repository for C++ library development
 - [lds-ctrl-est-pybind]() - python bindings to lds-ctrl-est core C++ functionality
 - `cpp-matlab-demos` - using mex to verify algos in c++ *(no repo yet)*
 
 ### Real-time utilities ([RTXI](http://rtxi.org/), [TDT](https://www.tdt.com/) )
-## RTXI
+#### RTXI
+
+<img src="figures/RTXI_logo.png" height=90 style='border:15px solid #ffffff'></img>
+
 [RTXI](http://rtxi.org/), the Real-Time eXperiment Interface, is a hard real-time data acquisition and control application for biological research. At its core is a Real-Time Operating System (RTOS), which uses a modified Linux kernel to provide deterministic control in a variety of experimental settings. RTXI is a fast, free, and open-source system currently used in labs all over the world to probe diverse, technologically challenging problems, such as dynamic probing of ion-channel function, control of cardiac arrhythmia dynamics, and control of deep-brain stimulation patterns.  We have repositories with useful tools for interfacing with and configuring RTXI.
 
 - [rtxi-settings](https://github.com/stanley-rozell/rtxi-settings) -  RTXI experiment settings   
@@ -85,7 +85,10 @@ https://github.com/stanley-rozell/lfp-cpp-library/blob/master/src/lfpRatiometer.
     - [nonlinearity & spiking](https://github.com/old-rtxi-utilities/rtxi-nonlin_spike)
   </details>
 
-## TDT  
+#### TDT  
+
+<img src="figures/TDT-LOGO-BLACK-TEXT_400.png" height=60 style='border:15px solid #ffffff'></img>
+
 Tucker Davis Technologies ([TDT](https://www.tdt.com/) ) have a variety of hardware and software solutions for neuroscience.  We have respositories with useful tools for interfacing with TDT hardware and software. 
 - <details><summary>TDT utilities</summary>
 
