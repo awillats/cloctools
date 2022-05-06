@@ -7,7 +7,7 @@ CLOC Tools includes algorthms for closed-loop control and tools for realtime imp
 
 ### **State-space dynamics** (GLDS, PLDS) [`stanley-rozell/ldsCtrlEst`](https://github.com/stanley-rozell/lds-ctrl-est)
 
-<img src="/figures/ldsctrlest-logo.png" height=90 style='border:15px solid #ffffff'></img>
+<img src="/figures/lds_ctrl_est_logo2022.png" height=90 style='border:15px solid #ffffff'></img>
 
 ldsCtrlEst is a C++ library for estimation and control of linear dynamical systems (LDS) with Gaussian or Poisson observations. It is meant to provide the functionality necessary to implement feedback control of linear dynamical systems experimentally. This library was originally developed for the task of controlling neuronal activity using spike count data as feedback and optogenetic inputs for control.
   - [code](https://github.com/stanley-rozell/lds-ctrl-est), [documentation](https://stanley-rozell.github.io/lds-ctrl-est/)
