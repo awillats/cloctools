@@ -60,7 +60,7 @@ CLOCTools makes use of a variety of progamming languages.  For instance, lds-ctr
 
 - [eg-cpp-library](https://github.com/stanley-rozell/eg-cpp-library) - An example repository for C++ library development
 - [lds-ctrl-est-pybind]() - python bindings to lds-ctrl-est core C++ functionality
-- `cpp-matlab-demos` - using mex to verify algos in c++ *(no repo yet)*
+- [cpp-matlab-demos](https://github.com/stanley-rozell/hmm/tree/master/matlab) - using mex to verify algos in c++ *(currently a part of HMM repository)*
 
 ### Real-time utilities
 
