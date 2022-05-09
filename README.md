@@ -108,7 +108,7 @@ These projects contain related work that doesn't necessarily fit into the primar
 
 CLEOsim (Closed Loop, Electrophysiology, and Optogenetics Simulator) is a Python package built on the Brian 2 spiking neural network simulator developed bridging theory and experiment for mesoscale neuroscience, facilitating electrode recording, optogenetic stimulation, and closed-loop experiments.  In conjunction with algorithm toolsets such as lds-ctrl-est and HMM, CLEOSim can test contol algorithms for use in closed-loop neuroscience on Brian 2 spiking neural network models.  In conjunction with implementation toolsets such as lds-ctrl-est-pybind, CLEOSim can also serve to prototype closed-loop experiments in silico and to test control algorithms on various models of mesoscale neural activity.
 
-<img src="figures/CLOCTools_and_CLEOSim_V7_white_background.png" height=360 style='border:15px solid #ffffff'></img>
+<img src="figures/CLOCTools_and_CLEOSim_V7_white_background.png" height=360 width=1259 style='border:15px solid #ffffff'></img>
 - [code](https://github.com/kjohnsen/cleosim), [documentation](https://cleosim.readthedocs.io/en/latest/)
 </details>
 <details><summary>Examples and Tutorials:</summary>
@@ -120,5 +120,5 @@ CLEOsim (Closed Loop, Electrophysiology, and Optogenetics Simulator) is a Python
   - [LQR Control using ldsCtrlEst](https://github.com/kjohnsen/cleosim/blob/master/docs/tutorials/lqr_ctrl_ldsctrlest.ipynb)
 </details>
 
-### CLINIC
+### CLINC
 [CLINC](https://github.com/awillats/clinc) - Closed-loop identifiability in neural circuits. This project proposes a framework for understanding the impact of open and closed-loop interventions in identifying neural circuits. This manuscript (in preparation) summarizes the role of stimulation in circuit inference and demonstrates how to design interventions through simple gaussian network simulations. See also [https://github.com/awillats/brian_delayed_gaussian](awillats/brian_delayed_gaussian) for simulating networks of Gaussian nodes with delayed connections in the Brian2 simulator framework.
