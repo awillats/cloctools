@@ -52,6 +52,10 @@ hmm is a simple set of hidden Markov model (HMM) code intended to support contro
 https://github.com/stanley-rozell/lfp-cpp-library
 https://github.com/stanley-rozell/lfp-cpp-library/blob/master/src/lfpRatiometer.cpp -->
 
+### State-aware (switched) control of neural dynamics (StAC)
+StAC allows for model-based control and estimation of a switched (PLDS) system. It relies on the [stanley-rozell/ldsCtrlEst](https://github.com/stanley-rozell/lds-ctrl-est) and [stanley-rozell/hmm](https://github.com/stanley-rozell/hmm) libraries.
+Building a switched control loop is demonstrated at [`eg_plds_switched_ctrl.cpp`](https://stanley-rozell.github.io/lds-ctrl-est/docs/tutorials/eg_switched_plds_control/), an RTXI wrapper for switched control of a PLDS system suitable for custom decoding is available at [rtxi-pldsSwitchedController](https://github.com/stanley-rozell/rtxi-pldsSwitchedController), and an RTXI wrapper for switched control of a PLDS using an HMM for decoding is available at [rtxi-StAC](https://github.com/stanley-rozell/rtxi-StAC). *See also section [Satellite:StAC](#StAC-analysis-manuscript-figures)) for analysis code and manuscript figures.*
+
 ## Implementation tools
 
 ### Cross-language utilities
@@ -98,8 +102,11 @@ TDT utilities:
 
 ## Satellite repositories 
 These projects contain related work that doesn't necessarily fit into the primary focus of CLOCTools or have their own goals seperate from CLOCTools.  They are listed here for completeness and relevance.  Of particular importance is CLEOSim which can serve to test the algorithms in ldsCtrlEst and hmm and to prototype experiments in-silico.
-### StAC
-[StAC](https://github.com/awillats/state-aware-control) is State-aware control of switching neural dynamics (StAC).  It applies control, decoding, and estimation to switching models of neural responses. Hidden Markov models and Poisson linear dynamical systems are used to design and characterize feedback in simulation and are compared to non-switching “state-naive” approaches.
+### StAC (analysis & manuscript figures)
+[StAC](https://github.com/awillats/state-aware-control) is State-aware control of switching neural dynamics (StAC).  It applies control, decoding, and estimation to switching models of neural responses. Hidden Markov models and Poisson linear dynamical systems are used to design and characterize feedback in simulation and are compared to non-switching “state-naive” approaches. Real-time implementation is provided by stanley-rozell/rtxi-StAC, however [stanley-rozell/state-aware-control-manuscript](https://github.com/awillats/state-aware-control) contains additional simulations, analysis, and plotting (in MATLAB) for the associated manuscript *(in preparation)*.
+<!-- will get transferred over to stanley-rozell/state-aware-control -->
+
+
 ### CLEOSim
 
 <img src="/figures/CLEOsim_logo.png" height=90 style='border:15px solid #ffffff'></img>
