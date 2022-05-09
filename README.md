@@ -108,7 +108,9 @@ These projects contain related work that doesn't necessarily fit into the primar
 
 CLEOsim (Closed Loop, Electrophysiology, and Optogenetics Simulator) is a Python package built on the Brian 2 spiking neural network simulator developed bridging theory and experiment for mesoscale neuroscience, facilitating electrode recording, optogenetic stimulation, and closed-loop experiments.  In conjunction with algorithm toolsets such as lds-ctrl-est and HMM, CLEOSim can test contol algorithms for use in closed-loop neuroscience on Brian 2 spiking neural network models.  In conjunction with implementation toolsets such as lds-ctrl-est-pybind, CLEOSim can also serve to prototype closed-loop experiments in silico and to test control algorithms on various models of mesoscale neural activity.
 
+
 <img src="figures/CLOCTools_and_CLEOSim_V7_white_background.png" style='border:15px solid #ffffff'></img>
+
 - [code](https://github.com/kjohnsen/cleosim), [documentation](https://cleosim.readthedocs.io/en/latest/)
 </details>
 <details><summary>Examples and Tutorials:</summary>
